@@ -10,8 +10,6 @@
     "typings": "^0.7.9"
   },
   "scripts": {
-    "tsc": "tsc",
-    "typings": "typings",
     "postinstall": "typings install",
     "prestart": "tsc && node build/prestart.js",
     "start": "node build/start.js",
