@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node-express",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "typings": "typings",
+    "postinstall": "typings install",
+    "prestart": "tsc && node build/prestart.js",
+    "start": "node build/start.js",
+    "clean": "rm -rf build node_modules typings"
+  }
+}
