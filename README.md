@@ -1,6 +1,6 @@
 # typescript-node-express
 
-
+A minimal Node.js app written in TypeScript, using Express.
 
 ## Quickstart
 
@@ -17,6 +17,12 @@ npm start
 ```
 
 Then open your browser and load `http://localhost:8080/`.
+
+To get rid of generated files, run
+
+```
+npm run clean
+```
 
 ## License
 
