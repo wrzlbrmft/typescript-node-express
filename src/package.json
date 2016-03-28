@@ -11,7 +11,7 @@
   },
   "scripts": {
     "postinstall": "typings install",
-    "prestart": "tsc && node build/prestart.js",
+    "prestart": "typings install && tsc && node build/prestart.js",
     "start": "node build/start.js",
     "clean": "rm -rf build node_modules typings"
   }
