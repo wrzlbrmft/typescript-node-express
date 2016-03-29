@@ -2,6 +2,10 @@
 
 A minimal Node.js/Express app written in TypeScript.
 
+**NOTE:** If you want to deploy the app to
+[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), see
+[typescript-node-express-aws-eb](https://github.com/wrzlbrmft/typescript-node-express-aws-eb).
+
 ## Quickstart
 
 Install with
