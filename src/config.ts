@@ -1,5 +1,5 @@
 const config = {
-	port: process.env.PORT || 8080
+	port: 8080
 };
 
 export default config;
