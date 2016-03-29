@@ -1,6 +1,6 @@
 # typescript-node-express
 
-A minimal Node.js app written in TypeScript, using Express.
+A minimal Node.js/Express app written in TypeScript.
 
 ## Quickstart
 
