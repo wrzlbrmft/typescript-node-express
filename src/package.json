@@ -2,16 +2,16 @@
   "name": "typescript-node-express",
   "version": "0.1.0",
   "dependencies": {
+    "@types/express": "*",
+    "@types/node": "*",
     "express": "*"
   },
   "devDependencies": {
-    "typescript": "*",
-    "typings": "*"
+    "typescript": "*"
   },
   "scripts": {
-    "postinstall": "typings install",
     "prestart": "tsc && node build/prestart.js",
     "start": "node build/start.js",
-    "clean": "rm -rf build node_modules typings"
+    "clean": "rm -rf build node_modules"
   }
 }
