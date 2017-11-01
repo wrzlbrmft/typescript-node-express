@@ -2,4 +2,3 @@
 *.iml
 src/build/
 src/node_modules/
-src/typings/
