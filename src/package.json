@@ -2,11 +2,11 @@
   "name": "typescript-node-express",
   "version": "0.1.0",
   "dependencies": {
-    "@types/express": "*",
-    "@types/node": "*",
     "express": "*"
   },
   "devDependencies": {
+    "@types/express": "*",
+    "@types/node": "*",
     "typescript": "*"
   },
   "scripts": {
